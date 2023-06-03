@@ -1,6 +1,7 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
+  projectId: 'kk33ag',
   e2e: {
     setupNodeEvents: (on, config) => {
       const isDev = config.watchForFileChanges;
